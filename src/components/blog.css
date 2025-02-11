@@ -1,0 +1,201 @@
+/* General Styling for Blog */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  font-family: "Poppins", serif;
+  font-weight: 400;
+  background-color: antiquewhite;
+  font-style: normal;
+  padding: 0;
+}
+
+/* Container */
+.container {
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+/* Header Styling */
+.header {
+  text-align: center;
+  background-color: #282c34;
+  color: white;
+  height:30vh;
+  padding: 20px;
+}
+
+
+.header h1 {
+  margin: 0;
+  margin-top:10px;
+  margin-bottom:10px;
+}
+
+.header p {
+  margin: 5px 0;
+}
+
+/* Footer Styling */
+.footer-container {
+  background-color: #282c34;
+  color: white;
+  padding: 20px 0;
+}
+
+.footer-nav ul {
+  display: flex;
+  justify-content: center;
+  gap: 10rem;
+  list-style: none;
+  padding: 0;
+}
+
+.footer-nav li {
+  display: inline-block;
+  font-size: large;
+  font-weight: 700;
+}
+
+.footer-nav li:hover {
+  color: #f9f9f9;
+  font-weight: 800;
+  text-decoration: underline;
+}
+
+.footer-info {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.footer-info p {
+  margin: 5px 0;
+}
+
+/* Home Page Styling */
+.home-container {
+  display: flex;
+  width:100%;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.main-pic {
+  width:100%;
+  height: 75vh;
+  border-radius: 1px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Card Styling */
+.card-design {
+  display: flex;
+  flex-wrap: wrap; /* Allows cards to wrap into new rows */
+  justify-content: space-around; /* Distributes space evenly across the row */
+  gap: 20px; /* Adds space between cards */
+  margin-top: 20px;
+}
+
+.card {
+  width: 18rem;
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  margin: 10px 0; /* Added vertical margin */
+}
+
+.card-img-top {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.card-body {
+  background-color: #fff;
+  padding: 15px;
+}
+
+.card-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.card-text {
+  font-size: 1rem;
+  color: #555;
+}
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+  border-color: #004085;
+}
+
+/* Footer Styling */
+.footer-container {
+  background-color: #282c34;
+  color: white;
+  padding: 20px 0;
+  margin-top:30px;
+}
+.footer-nav{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.footer-nav ul {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  list-style: none;
+  padding: 0;
+}
+
+.footer-nav li {
+  display: inline-block;
+  font-size: large;
+}
+
+.footer-nav li:hover {
+  color: #f9f9f9;
+  font-weight: 700;
+  cursor:pointer;
+  text-decoration: underline;
+}
+.logo{
+  list-style: none;
+  text-decoration: none;
+  color:white;
+}
+.logo:hover{
+  text-decoration: underline;
+}
+.footer-info {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.footer-info p {
+  margin: 10px 0;
+}
+.footer-icon{
+width:30px;
+margin:10px;
+}
+.footer-icons{
+  display: flex;
+  margin-top:10px;
+  justify-content: center;
+  align-items: center;
+}
+/* Learn design */
+.learn-container{
+  width:100%;
+  height:79vh;
+
+}
